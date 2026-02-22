@@ -51,10 +51,10 @@
     },
     {
       "id": "project-6",
-      "title": "E-Commerce Store",
-      "description": "Full-stack e-commerce platform with payment integration and inventory management.",
+      "title": "Github Finder",
+      "description": "An application to search GitHub profiles and repositories with real-time results and detailed insights.",
       "image": "/images/projects/project-6.png",
-      "link": "https://project-six.example.com",
+      "link": "https://github-finder-ten-tau.vercel.app/",
       "tags": ["Next.js", "Stripe", "Prisma"],
       "featured": true
     }

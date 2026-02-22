@@ -97,12 +97,30 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // TODO: Replace with your Formspree endpoint or other form handler
-    // For now, simulate a successful submission
+    // Using Web3Forms - free service for contact forms
+    // Get your access key at: https://web3forms.com (use email: saifisshaik@gmail.com)
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      setSubmitStatus("success");
-      setFormState({ name: "", email: "", message: "" });
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "f3eac228-a09a-4785-a731-8ed6e812d289", // Replace with your Web3Forms access key
+          name: formState.name,
+          email: formState.email,
+          message: formState.message,
+          to_email: "saifisshaik@gmail.com",
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setSubmitStatus("success");
+        setFormState({ name: "", email: "", message: "" });
+      } else {
+        setSubmitStatus("error");
+      }
     } catch {
       setSubmitStatus("error");
     } finally {

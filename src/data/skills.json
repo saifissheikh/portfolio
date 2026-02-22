@@ -1,0 +1,24 @@
+{
+  "skills": [
+    { "name": "OpenAI", "icon": "openai", "color": "#00A67E" },
+    { "name": "Anthropic", "icon": "anthropic", "color": "#D4A574" },
+    { "name": "React", "icon": "react", "color": "#61DAFB" },
+    { "name": "Next.js", "icon": "nextjs", "color": "#ffffff" },
+    { "name": "TypeScript", "icon": "typescript", "color": "#3178C6" },
+    { "name": "JavaScript", "icon": "javascript", "color": "#F7DF1E" },
+    { "name": "Python", "icon": "python", "color": "#3776AB" },
+    { "name": "Node.js", "icon": "nodejs", "color": "#339933" },
+    { "name": "FastAPI", "icon": "fastapi", "color": "#009688" },
+    { "name": "Tailwind CSS", "icon": "tailwindcss", "color": "#06B6D4" },
+    { "name": "PostgreSQL", "icon": "postgresql", "color": "#4169E1" },
+    { "name": "MongoDB", "icon": "mongodb", "color": "#47A248" },
+    { "name": "Redis", "icon": "redis", "color": "#DC382D" },
+    { "name": "Docker", "icon": "docker", "color": "#2496ED" },
+    { "name": "AWS", "icon": "amazonwebservices", "color": "#FF9900" },
+    { "name": "Git", "icon": "git", "color": "#F05032" },
+    { "name": "GraphQL", "icon": "graphql", "color": "#E10098" },
+    { "name": "Jupyter", "icon": "jupyter", "color": "#F37626" },
+    { "name": "Figma", "icon": "figma", "color": "#F24E1E" },
+    { "name": "VS Code", "icon": "vscode", "color": "#007ACC" }
+  ]
+}

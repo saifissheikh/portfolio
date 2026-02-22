@@ -1,0 +1,24 @@
+{
+  "name": "Saif Sheikh",
+  "title": "Full Stack Developer",
+  "tagline": "Building intelligent, AI-powered digital experiences",
+  "currentRole": {
+    "position": "Full Stack Developer",
+    "company": "Banque Saudi Fransi",
+    "description": "Building modern banking solutions with AI integrations and leading frontend architecture"
+  },
+  "about": "I'm a Full Stack Developer passionate about building intelligent, user-centric applications. I specialize in modern web technologies and AI integrations — from crafting seamless React interfaces to implementing LLM-powered features and conversational AI. I bridge the gap between cutting-edge AI capabilities and exceptional user experiences.",
+  "expertise": [
+    "AI & LLM Integrations",
+    "React & Next.js",
+    "TypeScript",
+    "Node.js & Python",
+    "Conversational AI",
+    "Cloud Services (AWS/GCP)",
+    "Frontend Architecture",
+    "Responsive Design"
+  ],
+  "location": "Dubai, United Arab Emirates",
+  "email": "your.email@example.com",
+  "resumeUrl": "/resume.pdf"
+}

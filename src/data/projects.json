@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Website with CMS",
+      "description": "A comprehensive public website for BSF with CMS and reusable components, patterns and guidelines for consistent UI development.",
+      "image": "/images/projects/project-1.png",
+      "link": "https://bsf.sa/english/home",
+      "github": "https://github.com/yourusername/project-one",
+      "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      "featured": true
+    },
+    {
+      "id": "project-2",
+      "title": "Game Library Dashboard",
+      "description": "A personalized Game profile dashboard showing stats, repos, and activity overview.",
+      "image": "/images/projects/project-2.png",
+      "link": "https://game-hub-seven-pi.vercel.app/",
+      "github": "https://github.com/yourusername/project-two",
+      "tags": ["Node.js", "Express", "MongoDB", "React"],
+      "featured": true
+    },
+    {
+      "id": "project-3",
+      "title": "Hireable Platform",
+      "description": "Connecting exceptional talent with outstanding opportunities in the UAE and beyond.",
+      "image": "/images/projects/project-3.png",
+      "link": "https://hireable.ae/",
+      "github": "https://github.com/yourusername/project-three",
+      "tags": ["TypeScript", "GraphQL", "PostgreSQL"],
+      "featured": false
+    },
+    {
+      "id": "project-4",
+      "title": "Shory Insurance Platform",
+      "description": "Shory is your go-to platform for comparing and choosing from a wide range of insurance options in just minutes.",
+      "image": "/images/projects/project-4.png",
+      "link": "https://www.shory.com/",
+      "github": "https://github.com/yourusername/project-four",
+      "tags": ["React", "Prisma", "PostgreSQL"],
+      "featured": false
+    },
+    {
+      "id": "project-5",
+      "title": "Analytics Platform",
+      "description": "Real-time analytics dashboard with customizable charts and data visualization.",
+      "image": "/images/projects/project-5.png",
+      "link": "https://www.thermofisher.com/ae/en/home/life-science/protein-biology/protein-assays-analysis/western-blotting/detect-proteins-western-blot/western-blot-imaging-analysis/ibright-systems/software.html",
+      "tags": ["Next.js", "D3.js", "WebSocket"],
+      "featured": false
+    },
+    {
+      "id": "project-6",
+      "title": "E-Commerce Store",
+      "description": "Full-stack e-commerce platform with payment integration and inventory management.",
+      "image": "/images/projects/project-6.png",
+      "link": "https://project-six.example.com",
+      "tags": ["Next.js", "Stripe", "Prisma"],
+      "featured": true
+    }
+  ]
+}
